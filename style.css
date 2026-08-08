@@ -377,13 +377,13 @@ nav a:focus-visible{
     justify-content: center;
 
     position: relative;
+
+    animation: float 4s ease-in-out infinite;
 }
 
 .hero_image img{
     width: 100%;
     max-width: 42rem;
-
-    animation: float 4s ease-in-out infinite;
 
     position: relative;
     z-index: 2;
