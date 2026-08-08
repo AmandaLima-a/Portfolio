@@ -563,6 +563,77 @@ nav a:focus-visible{
                 18 - TECNOLOGIAS
 ==================================================*/
 
+.tecnologias_grid{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+}
+
+.tecnologia_card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 2.4rem;
+
+    background-color: var(--cor-superficie);
+
+    border: .1rem solid var(--cor-borda);
+    border-radius: 1.6rem;
+
+    transition: var(--transicao-padrao);
+}
+
+.tecnologia_card:hover{
+    border-color: var(--cor-primaria);
+
+    transform: translateY(-.4rem);
+
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
+}
+
+.tecnologia_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 5rem;
+    height: 5rem;
+
+    background-color: rgba(200, 16, 46, .1);
+
+    border-radius: 1.2rem;
+
+    color: var(--cor-primaria);
+
+    font-size: 2.8rem;
+
+    box-shadow: 0 0 2rem rgba(200, 16, 46, .12);
+}
+
+.tecnologia_info{
+    flex: 1;
+}
+
+.tecnologia_info h3{
+    margin-bottom: .6rem;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.tecnologia_info p{
+    color: var(--cor-texto-secundario);
+
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+#tecnologias{
+    padding: 10rem 0;
+}
 
 /*==================================================
                 99 - RESPONSIVIDADE 
@@ -692,6 +763,14 @@ nav a:focus-visible{
     .sobre_destaques{
         width: 100%;
     }
+
+    #tecnologias{
+        padding: 8rem 0 6rem;
+    }
+
+    .tecnologias_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
  }
 
  /*--------------- 99.2 - MOBILE ---------------*/
@@ -748,5 +827,13 @@ nav a:focus-visible{
 
     .destaque span{
         font-size: 1.4rem;
+    }
+
+    #tecnologias{
+        padding: 7rem 0 5rem;
+    }
+
+    .tecnologias_grid{
+        grid-template-columns: 1fr;
     }
  }
