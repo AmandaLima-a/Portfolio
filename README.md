@@ -1,13 +1,16 @@
-# Portfólio | Amanda Lima
+# 🚀 Portfólio | Amanda Lima
 
 Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória como desenvolvedora Front-end.
 
-
-## Sobre o projeto
+## 👩‍💻 Sobre o projeto
 
 Este portfólio foi desenvolvido para apresentar minha trajetória como desenvolvedora Front-end, minhas principais tecnologias e projetos. O projeto também busca demonstrar conhecimentos em desenvolvimento de interfaces modernas, responsivas e acessíveis.
 
-## Tecnologias utilizadas
+## 📸 Preview
+
+![Preview do portfólio](./img/preview.png)
+
+## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -15,7 +18,7 @@ Este portfólio foi desenvolvido para apresentar minha trajetória como desenvol
 - Font Awesome
 - Google Fonts
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - Navegação entre as seções do portfólio
 - Menu responsivo para dispositivos menores
@@ -27,15 +30,13 @@ Este portfólio foi desenvolvido para apresentar minha trajetória como desenvol
 - Envio de mensagens diretamente para o e-mail
 - Feedback visual após o envio do formulário
 
-## Como acessar
+## 🌐 Acesse o projeto
 
-O projeto estará disponível em:
+[Visitar portfólio](https://amandalima-a.github.io/Portfolio/)
 
-
-
-## Autora
+## 👩‍💻 Autora
 
 **Amanda Lima**
 
-- GitHub: https://github.com/AmandaLima-a
-- LinkedIn: https://www.linkedin.com/in/amanda-de-jesus-lima/
+- GitHub: [AmandaLima-a](https://github.com/AmandaLima-a)
+- LinkedIn: [Amanda Lima](https://www.linkedin.com/in/amanda-de-jesus-lima/)
