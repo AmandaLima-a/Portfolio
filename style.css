@@ -972,6 +972,17 @@ nav a:focus-visible{
     margin-top: .5rem;
 }
 
+.form_mensagem{
+    margin-top: 1.5rem;
+
+    color: var(--cor-primaria);
+
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    text-align: center;
+}
+
 /*==================================================
                 22 - FOOTER
 ==================================================*/

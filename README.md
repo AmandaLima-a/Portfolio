@@ -18,10 +18,14 @@ Este portfólio foi desenvolvido para apresentar minha trajetória como desenvol
 ## Funcionalidades
 
 - Navegação entre as seções do portfólio
+- Menu responsivo para dispositivos menores
 - Layout responsivo para diferentes tamanhos de tela
-- Apresentação das principais tecnologias
-- Exibição de projetos desenvolvidos
-- Seção sobre minha jornada como desenvolvedora
+- Apresentação das tecnologias utilizadas
+- Apresentação dos projetos desenvolvidos
+- Links para visualizar os projetos e seus repositórios
+- Formulário de contato funcional
+- Envio de mensagens diretamente para o e-mail
+- Feedback visual após o envio do formulário
 
 ## Como acessar
 
