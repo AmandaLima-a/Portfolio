@@ -29,3 +29,30 @@ window.addEventListener("resize", () => {
     }
 });
 
+const contatoForm = document.querySelector("#contato-form");
+const formMensagem = document.querySelector(".form_mensagem");
+
+contatoForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const dadosFormulario = new FormData(contatoForm);
+
+    try {
+        const resposta = await fetch(contatoForm.action, {
+            method: "POST",
+            body: dadosFormulario,
+            headers: {
+                Accept: "application/json"
+            }
+        });
+
+        if (resposta.ok) {
+            formMensagem.textContent = "Mensagem enviada com sucesso!";
+            contatoForm.reset();
+        } else {
+            formMensagem.textContent = "Não foi possível enviar a mensagem. Tente novamente.";
+        }
+    } catch (erro) {
+        formMensagem.textContent = "Ocorreu um erro ao enviar a mensagem. Tente novamente.";
+    }
+});
